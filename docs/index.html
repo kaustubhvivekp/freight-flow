@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Freight Flow Analytics Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding: 20px; }
+        .dashboard-item { margin-bottom: 30px; }
+        .viz-container { height: 600px; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4">🚢 Freight Flow Analytics Dashboard</h1>
+        
+        <div class="row dashboard-item">
+            <div class="col-12">
+                <h2>TEU Volume Analysis</h2>
+                <div class="viz-container">
+                    <iframe src="teu_analysis.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row dashboard-item">
+            <div class="col-12">
+                <h2>Marine Trade Flows</h2>
+                <div class="viz-container">
+                    <iframe src="trade_flows.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-5 text-center">
+            <p>Data source: Statistics Canada - Table 23-10-0269-01</p>
+            <p>
+                <a href="https://github.com/kaustubhvivekp/freight-flow" target="_blank" class="btn btn-outline-dark">
+                    View on GitHub
+                </a>
+            </p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

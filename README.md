@@ -1,12 +1,11 @@
 # Freight Flow Analytics Dashboard
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://freight-flow.streamlit.app)
+[![GitHub Pages](https://img.shields.io/badge/View-Dashboard-blue?style=for-the-badge&logo=github)](https://kaustubhvivekp.github.io/freight-flow/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
-[![GitHub](https://img.shields.io/github/license/kaustubhvivekp/freight-flow)](https://github.com/kaustubhvivekp/freight-flow/blob/main/LICENSE)
 
 Interactive dashboard displaying marine shipping patterns and trade flows using Statistics Canada data.
 
-## Live Demo
+## Live Dashboard
 [Click here to view the live dashboard](https://freight-flow.streamlit.app)
 
 ## Features
