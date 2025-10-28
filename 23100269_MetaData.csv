@@ -1,0 +1,81 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Transportation activity indicators, Transport Canada","23100269",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310026901",,"CURRENT - a cube available to the public and that is current","Monthly","2017-01-01","2024-09-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography",,""
+"2","Activity indicators",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Canada","[11124]","1","","",,
+"2","By automobile","","2","1","",1,
+"2","By plane","","3","1","",1,
+"2","By boat, bus, rail and other modes of transport such as motorcycle or bicycle","","4","1","",1,
+"2","Export","","8","7","",4,
+"2","Import","","9","7","",4,
+"2","To the United States","","11","10","",5,
+"2","To the rest of world","","17","10","",5,
+"2","Marine to the United States","","12","11","",5,
+"2","Rail to the United States","","13","11","",5,
+"2","Air to the United States","","14","11","",5,
+"2","Road to the United States","","15","11","",5,
+"2","Other modes of transport to the United States","","16","11","",5,
+"2","Marine to the rest of world","","18","17","",5,
+"2","Rail to the rest of world","","19","17","",5,
+"2","Air to the rest of world","","20","17","",5,
+"2","Road to the rest of world","","21","17","",5,
+"2","Other modes of transport to the rest of world","","22","17","",5,
+"2","From the United States","","24","23","",6,
+"2","From the rest of world","","30","23","",6,
+"2","Marine from the United States","","25","24","",6,
+"2","Rail from the United States","","26","24","",6,
+"2","Air from the United States","","27","24","",6,
+"2","Road from the United States","","28","24","",6,
+"2","Other modes of transport from the United States","","29","24","",6,
+"2","Marine from the rest of world","","31","30","",6,
+"2","Rail from the rest of world","","32","30","",6,
+"2","Air from the rest of world","","33","30","",6,
+"2","Road from the rest of world","","34","30","",6,
+"2","Other modes of transport from the rest of world","","35","30","",6,
+"2","International passengers, number of Canadian and U.S. travellers between Canada and the United States","","1","","",1,
+"2","International passengers, number of Canadian and non-U.S. travellers overseas, all modes of transport","","5","","",2,
+"2","International freight, number of commercial vehicles travelling between Canada and the United States","","6","","",3,
+"2","International freight, total twenty-foot equivalent units (TEUs) handled at four major container ports","","7","","",4,
+"2","Merchandise trade, total export of goods","","10","","",5,
+"2","Merchandise trade, total import of goods","","23","","",6,
+"2","Domestic and international passengers, air","","36","","",7,
+"2","Domestic and international passengers, rail (VIA Rail)","","37","","",8,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"5292","Transport Canada in brief"
+
+"Subject Code","Subject Name"
+"23","Transportation"
+
+"Note ID",Note
+1,"The number of travellers entering Canada from the United States including U.S. citizens entering Canada and Canadian citizens that have travelled out of the country and are returning home."
+2,"The number of travellers entering Canada, not including travellers from the United States. The number includes non-Canadian citizens entering Canada and Canadian citizens that have travelled out of the country and are returning home. Overseas travellers usually arrive by airplane."
+3,"The Number of commercial vehicles entering Canada from the United States at border locations."
+4,"The number of shipping containers measured in twenty-foot equivalent units (TEUs) handled at the ports in Halifax, Montréal, Prince Rupert and Vancouver. TEU is a common way to measure the amount of space in a shipping container as the containers can have different sizes."
+5,"The value of the dollar has not been adjusted for seasonal changes in movements. For exports, the mode of transport listed is the mode of transport used to send the merchandise over the Canadian border. This could be different from the mode of transport that is used when the merchandise is shipped within Canada. Total exports includes locally produced goods and foreign produced goods. The foreign produced goods are divided into two groups and both are included. The first is goods that are not modified after being imported, and the second is goods that are modified after being imported."
+6,"The value of the dollar has not been adjusted for seasonal changes in movements. For imports, the mode of transport listed is the last mode of transport used to move the cargo to the port of clearance in Canada and this is identified from the cargo control documents of customs. This may not be the mode of transport that the cargo arrived at the Canadian port of entry in cases where the import is cleared after it has crossed the border at an inland location."
+7,"The number of enplaned revenue-passengers in Canada. This includes scheduled and charter air services for domestic (within Canada), transborder (between Canada and the United States) and international travel."
+8,"The total number of passengers carried by VIA Rail, including business and economy class."
+
+"Correction ID","Correction Date","Correction Note"
