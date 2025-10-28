@@ -6,7 +6,7 @@
 Interactive dashboard displaying marine shipping patterns and trade flows using Statistics Canada data.
 
 ## Live Dashboard
-[Click here to view the live dashboard](https://freight-flow.streamlit.app)
+[Click here to view the live dashboard](https://kaustubhvivekp.github.io/freight-flow/)
 
 ## Features
 - TEU Volume Decomposition Analysis
@@ -21,16 +21,6 @@ Interactive dashboard displaying marine shipping patterns and trade flows using 
 ```bash
 git clone https://github.com/kaustubhvivekp/freight-flow.git
 cd freight-flow
-```
-
-2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the app
-```bash
-streamlit run app.py
 ```
 
 ## Data Source
